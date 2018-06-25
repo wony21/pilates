@@ -12,7 +12,7 @@
         	AND USER_PS = #{userPs}
     </select>
     <select id="existUserInStor" parameterType="hashmap" resultType="camelmap" statementType="PREPARED">
-    	/* 매장의 사용자 */
+    	/* 매장의 사용자  123455123 */
     	SELECT
 			  ISNULL((SELECT CASE WHEN USER_LV = '01' THEN 1 
 			                      WHEN USER_LV != '01' AND STOR_CD = #{storCd} THEN 1 
