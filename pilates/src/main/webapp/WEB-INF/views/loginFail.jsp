@@ -13,8 +13,6 @@
 
 <body style="background-color: skyblue;">
 
-	eijeijfiejflksjdlfkjlskjeflejf
-
 	 <div class="container" style="margin-top: 5%;">
 	 	<div class="alert alert-danger" role="alert">
   			<a href="/login" class="alert-link">사용자 로그인 인증</a>에 실패하였습니다.
